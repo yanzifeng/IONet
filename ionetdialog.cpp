@@ -249,8 +249,6 @@ void IONetDialog::desposeUdpData(QByteArray ba)
             ui->lineEdit_5->setText(tr("Queue Size : %1").arg(queue.size()));
         }
     }
-
-
 }
 void IONetDialog::onTimer()
 {
