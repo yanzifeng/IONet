@@ -60,6 +60,7 @@ private:
     QList<int> rangeList;
     QString mBoardIP;
     int mBoardPort;
+    int git;
 };
 
 #endif // IONETDIALOG_H

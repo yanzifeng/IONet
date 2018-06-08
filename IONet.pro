@@ -26,14 +26,17 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
         main.cpp \
         ionetdialog.cpp \
-    udppwrapper.cpp
+    udppwrapper.cpp \
+    testdialog.cpp
 
 HEADERS += \
         ionetdialog.h \
-    udppwrapper.h
+    udppwrapper.h \
+    testdialog.h
 
 FORMS += \
-        ionetdialog.ui
+        ionetdialog.ui \
+    testdialog.ui
 
 RC_FILE = maininterface.rc
 RESOURCES += pixmaps/pixmaps.qrc

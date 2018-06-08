@@ -8,6 +8,8 @@
 #include <QSettings>
 #include <QTextCodec>
 
+//add by yanzifeng push by qtcreator
+
 IONetDialog::IONetDialog(QWidget *parent) :
     QDialog(parent),
     ui(new Ui::IONetDialog)
